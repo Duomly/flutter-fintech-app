@@ -19,11 +19,11 @@ class _WelcomeState extends State<Welcome> {
           backgroundColor: Color(0xFF4A148C),
           body: Center(
             child: Container(
-              margin: const EdgeInsets.only(left: 20.0, right: 20.0, top: 50.0, bottom: 50.0),
+              margin: const EdgeInsets.all(20.0),
               color: Colors.white,
-              height: _screenSize.height * 0.7,
+              height: _screenSize.height * 0.6,
               child: Padding(
-                padding: const EdgeInsets.all(36.0),
+                padding: const EdgeInsets.all(18.0),
                 child: _login ? Login(
                   onFormSwitch: () {
                     setState(() {
